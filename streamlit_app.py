@@ -29,7 +29,4 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # Display the result on the dataframe
 streamlit.dataframe(fruityvice_normalized)
 
-#New section to display Fruityvice API response
-import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text(fruityvice_response)
+
