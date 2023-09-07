@@ -65,4 +65,4 @@ if streamlit.button('Add a Fruit to the List'):
   streamlit.text(back_from_function)
 
 #this will not function, it's to understand
-my_cur.execute("insert into fruit_load_list values ('for streamlit')")
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
